@@ -74,6 +74,7 @@ class juego {
     if (this.O.colisiona(this.prot)) {
       background(255, 0, 0);
       this.golpes ++;
+      this.vidas --;
     }
   }
 }
